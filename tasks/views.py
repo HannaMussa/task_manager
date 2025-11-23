@@ -6,13 +6,11 @@ from .forms import TaskForm  # create form
 def task_list(request):
     tasks = Task.objects.filter(user=request.user)  # show task for that user
     if request.method == 'POST':
-        form = TaskForm(request.POST)
-        if form.is_valid():
-            form.save()
-            return redirect('task-list')
-    else:
-        form = TaskForm()
+        task_id = request.POST.get('task_id')
+        task = Task.objects.get(id=task_id)
+        task.completed = not task.completed
+        task.save()
+
     return render(request, 'tasks/index.html', {
         'tasks': tasks,
-        'form': form
     })
