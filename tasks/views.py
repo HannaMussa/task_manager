@@ -28,6 +28,8 @@ def task_list(request):
     })
 
 # edit task
+
+
 @login_required
 def task_edit(request, pk):
     task = get_object_or_404(Task, pk=pk, user=request.user)
@@ -41,7 +43,7 @@ def task_edit(request, pk):
     else:
         form = TaskForm(instance=task)  # Populate form with current task data
 
-    return render(request, 'tasks/edit_task.html', {'form': form, })
+    return render(request, 'tasks/edit.html', {'form': form, })
 
 # delete task
 
