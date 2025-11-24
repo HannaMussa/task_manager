@@ -28,7 +28,7 @@
         {% endif %}
 
         <!--form to toggle completed tasks-->
-        <form method="post" style="display:inline;">
+        <form method="post" action="" style="display:inline;">
             {% csrf_token %}
             <input type="hidden" name="task_id" value="{{ task.id }}">
             <button type="submit">Toggle Completion</button>
