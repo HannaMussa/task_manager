@@ -2,6 +2,22 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from .models import Task  # show tasks
 from .forms import TaskForm  # create form
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth import login
+
+# sign up
+
+
+def signup(request):
+    if request.method == 'POST':
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            user = form.save()
+            login(request, user)
+            return redirect('task-list')
+    else:
+        form = UserCreationForm()
+    return render(request, 'tasks/signup.html', {'form': form})
 
 
 @login_required
