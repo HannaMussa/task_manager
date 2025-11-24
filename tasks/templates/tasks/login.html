@@ -4,3 +4,15 @@
 
 {% block content %}
 <h2>Create Account</h2>
+<<<<<<< HEAD
+=======
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Sign Up</button>
+</form>
+
+<a href="{% url 'login' %}">Already have an account? Login</a>
+{% endblock %}
+>>>>>>> dcb47dd4d09464892cf636c2be99a28bd0130f7e
