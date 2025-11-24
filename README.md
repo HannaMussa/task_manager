@@ -8,3 +8,8 @@ https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server
 https://www.w3schools.com/django/
 https://docs.djangoproject.com/en/5.2/topics/forms/modelforms/
 
+https://www.youtube.com/watch?v=H_cWdD-aXCQ&t=295s (bootstrap navbar)
+
+ https://www.youtube.com/watch?v=kDAnnEhb4_I (login aunthentication)
+
+ 
