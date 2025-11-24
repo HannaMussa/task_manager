@@ -1,4 +1,34 @@
-# task_manager
+# Task Manager
+
+## Project Overview / Rationale
+
+
+## Technologies Used
+
+## Features
+### Existing Features
+
+## How to Run Locally
+### Clone Repository
+### Install Dependencies
+### Apply Migrations
+### Run Server
+
+## Database
+- Task model description
+- Relationships 
+
+## Deployment
+
+
+## Testing (make new file)
+- Manual testing of CRUD and auth
+- Any bugs found/fixed
+
+## Code Attribution
+- References
+- Tutorials referenced
+
 
 https://docs.djangoproject.com/en/5.2/
 
