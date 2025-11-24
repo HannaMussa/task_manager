@@ -2,6 +2,7 @@
 
 ## Project Overview / Rationale
 
+This project uses a simple, clear and user friendly web application To-Do List built with Django and Python. It allows users to customise their own tasks by creating,, editing deleting, and marking tasks as completed. Each user has their own task list and can manage tasks efficiently. 
 
 ## Technologies Used
 
