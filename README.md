@@ -16,9 +16,30 @@
 
 ## User Stories
 
+<details>
+<summary>Click here to view the User Stories </summary>
+
+- As a first time user, I want to easily create, view, and manage my tasks so that I can organize and track my progress.
+
+- As a user, I want to assign due dates to my tasks so that I can prioritize my work and plan better.
+
+- As a user, I want to securely log out of my account so that my tasks and account information are protected when I am done.
+
+- As a mobile user, I want the task manager to work smoothly on my phone or tablet so that I can manage my tasks on the go without issues.
+
+- As a user, I want to delete tasks that are no longer needed so that my task list remains focused and manageable.
+
+- As a user, I want to mark tasks as complete so that I can track which tasks are finished.
+
+- As a user, I want to ensure my tasks are stored securely so that my data is safe from unauthorized access.
+
+</details>
+
 ## Development Cycle 
 
 ## Wireframes
+<details>
+<summary>Click here to view the Wireframes </summary>
 
 ### Mobile Wireframes
 
@@ -26,10 +47,14 @@
 
 ### Desktop Wireframes
 
+</details>
 
 ## Features
 
 ### Existing Features
+
+<details>
+<summary>Click here to view the the Existing Features </summary>
 
 #### User Signup
 - Users can create an account using a simple signup form. Each user is able to create, edit, delete and update their own tasks.
@@ -67,9 +92,19 @@
 #### Navigation Bar
 - A Bootstrap-styled navigation bar appears at the top of each page. It includes links to the task list, login, logout and a welcome message when the user is logged in.
 
+</details>
+
 ### Future Features
 
+<details>
+<summary>Click here to view the the Future Features </summary>
+
+</details>
+
 ## Technologies Used
+
+<details>
+<summary>Click here to view the the Technologies Used </summary>
 
 This section highlights the tools, languages, and frameworks used in the development of the project:
 
@@ -87,7 +122,12 @@ This section highlights the tools, languages, and frameworks used in the develop
 - **GitHub** – Hosting platform used to store the project repository.
 - **Google Chrome DevTools** – Used for debugging, inspecting elements, and testing CSS.
 
+</details>
+
 ## Code Attribution
+
+<details>
+<summary>Click here to view the the Code Attribution </summary>
 
 Some parts of this project were inspired by or adapted from external sources:
 
@@ -111,6 +151,8 @@ Some parts of this project were inspired by or adapted from external sources:
 
 All other code was written by Hanna Mussa.
 
+</details>
+
 ## Content Credits
 
 ## Database
@@ -122,6 +164,10 @@ All other code was written by Hanna Mussa.
 To view the testing carried out, please refer to the [TESTING.md](TESTING.md) file.
 
 ## Local Deployment
+
+<details>
+<summary>Click here to view the Local Deployment </summary>
+
 1.	Clone the repository by typing in the terminal:
 `git clone https://github.com/HannaMussa/task_manager.git
 cd task_manager`
@@ -137,7 +183,13 @@ venv\Scripts\activate` (Windows)
 `python manage.py runserver`
 6.	Open your browser and click the link displayed in the terminal to access the app.
 
+</details>
+
 ## Forking
+
+<details>
+<summary>Click here to view the Forking </summary>
+
 
 Forking allows you to create a personal copy of the project:
 
@@ -150,14 +202,21 @@ Forking allows you to create a personal copy of the project:
 
 The forked repository will now appear in your GitHub account.
 
+</details>
+
 ### Acknowledgements 
 
 I am grateful to my tutor, Robert Thompson, and my mentor, Richard Wells, for their continued support and guidance during this project.
 
-# pending: 
-- User Stories
-- Development Cycle 
+### pending: 
+
 - Wireframes
+- Future Features
 - Credits
-- Database
-- Testing ( Manual testing of CRUD and auth, Any bugs found/fixed, html, cssvalidator.user stories (testing)testing features)
+- Database (Task model description,  Relationships)
+- Testing ( Manual testing of CRUD and auth, Any bugs found/fixed, html, cssvalidator.user stories (testing)testing features, add audot testing )
+- CSS
+### (not mandatory)
+
+- Development Cycle
+
