@@ -135,7 +135,22 @@ venv\Scripts\activate` (Windows)
 `python manage.py runserver`
 6.	Open your browser and click the link displayed in the terminal to access the app.
 
+## Forking
 
+Forking allows you to create a personal copy of the project:
+
+1. Navigate to the task_manager
+ repository.
+
+2. Click Fork, then click create a new fork.
+
+3. Name your forked repository and click Create fork.
+
+The forked repository will now appear in your GitHub account.
+
+### Acknowledgements 
+
+I am grateful to my tutor, Robert Thompson, and my mentor, Richard Wells, for their continued support and guidance during this project.
 
 # pending: 
 - User Stories
