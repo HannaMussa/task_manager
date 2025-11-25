@@ -65,6 +65,7 @@
 #### Navigation Bar
 - A Bootstrap-styled navigation bar appears at the top of each page. It includes links to the task list, login, logout and a welcome message when the user is logged in.
 
+### Future Features
 
 ## Technologies Used
 
@@ -108,34 +109,39 @@ Some parts of this project were inspired by or adapted from external sources:
 
 All other code was written by Hanna Mussa.
 
-
 ## Content Credits
-
-## How to Run Locally
-
-### Clone Repository
-
-### Install Dependencies
-
-### Apply Migrations
-
-### Run Server
 
 ## Database
 - Task model description
 - Relationships 
 
-## Deployment
-
-
 ## Testing
 
 To view the testing carried out, please refer to the [TESTING.md](TESTING.md) file.
 
-- Manual testing of CRUD and auth
-- Any bugs found/fixed
-- html, cssvalidator
-user stories (testing)
-testing features
+## Local Deployment
+1.	Clone the repository by typing in the terminal:
+`git clone https://github.com/HannaMussa/task_manager.git
+cd task_manager`
+2.	Create a virtual environment and activate it:
+`python -m venv venv
+venv\Scripts\activate` (Windows)
+`source venv/bin/activate` (Mac/Linux)
+3.	Install the dependencies:
+`pip install -r requirements.txt`
+4.	Apply the database migrations:
+`python manage.py migrate`
+5.	Run the server:
+`python manage.py runserver`
+6.	Open your browser and click the link displayed in the terminal to access the app.
 
 
+
+# pending: 
+- User Stories
+- Development Cycle 
+- Wireframes
+- Credits
+- Database
+- How to operate the Task Manager
+- Testing ( Manual testing of CRUD and auth, Any bugs found/fixed, html, cssvalidator.user stories (testing)testing features)
