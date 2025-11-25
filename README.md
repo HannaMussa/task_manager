@@ -12,6 +12,8 @@
 
 ### How to operate the Task Manager
 
+- To use the Task Manager, first sign up if you don’t have an account, then log in with your username and password. On the main page, create new tasks by entering a title, optional description, and due date, and click Add Task. Your tasks will appear in a list where you can edit them to update details, delete tasks permanently, or toggle their completion status directly. The navbar allows you to log out safely when finished. All actions are linked to your account, ensuring only you can view and manage your tasks.
+
 ## User Stories
 
 ## Development Cycle 
@@ -158,5 +160,4 @@ I am grateful to my tutor, Robert Thompson, and my mentor, Richard Wells, for th
 - Wireframes
 - Credits
 - Database
-- How to operate the Task Manager
 - Testing ( Manual testing of CRUD and auth, Any bugs found/fixed, html, cssvalidator.user stories (testing)testing features)
