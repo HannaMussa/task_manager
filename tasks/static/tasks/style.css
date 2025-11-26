@@ -1,9 +1,58 @@
+/* Standard reeset styles for consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 10px;
-    background-color: #D3A674B3 !important;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  background-color: #f4f6f8;
+  padding: 0 15px;
+  min-height: 100vh;
 }
 
 .navbar {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+/* Navbar styling */
+
+.navbar {
+  background-color: #f1c46a;
+  color: black;
+  padding: 15px;
+}
+
+/* Headings */
+h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #333;
+}
+/* Labels */
+label,
+.nav-link {
+  font-size: 20px;
+}
+
+/* Buttons */
+button,
+.nav-link,
+.btn {
+  padding: 10px 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #f1c46a;
+  color: black;
+  transition: 0.2s;
+}
+
+button:hover,
+.nav-link:hover,
+.btn:hover {
+  background-color: #f3dcaf;
 }

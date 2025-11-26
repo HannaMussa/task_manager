@@ -1,45 +1,36 @@
-{% extends 'tasks/base.html' %}
-{% load static %}
-
-{% block title %}My Tasks{% endblock %}
-
-{% block content %}
+{% extends 'tasks/base.html' %} {% load static %} {% block title %}My Tasks{%
+endblock %} {% block content %}
 
 <h1>My Tasks</h1>
 
 <!--form to create new tasks-->
 <form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Add Task</button>
+  {% csrf_token %} {{ form.as_p }}
+  <button type="submit">Add Task</button>
 </form>
 
-<hr>
+<hr />
 
 <!--task list-->
 <ul>
-    {% for task in tasks %}
-    <li>
-        {{ task.title }} -
-        {% if task.completed %}
-        Completed
-        {% else %}
-        Not Completed
-        {% endif %}
+  {% for task in tasks %}
+  <li>
+    {{ task.title }} - {% if task.completed %} Completed {% else %} Not
+    Completed {% endif %}
 
-        <!--form to toggle completed tasks-->
-        <form method="post" action="" style="display:inline;">
-            {% csrf_token %}
-            <input type="hidden" name="task_id" value="{{ task.id }}">
-            <button type="submit">Toggle Completion</button>
-        </form>
+    <!--form to toggle completed tasks-->
+    <form method="post" action="" style="display: inline">
+      {% csrf_token %}
+      <input type="hidden" name="task_id" value="{{ task.id }}" />
+      <button type="submit">Toggle Completion</button>
+    </form>
 
-        <!-- edit task -->
-        <a href="{% url 'task-edit' task.pk %}">Edit</a>
+    <!-- edit task -->
+    <a href="{% url 'task-edit' task.pk %}">Edit</a>
 
-        <!-- delete task -->
-        <a href="{% url 'task-delete' task.pk %}">Delete</a>
-    </li>
-    {% endfor %}
+    <!-- delete task -->
+    <a href="{% url 'task-delete' task.pk %}">Delete</a>
+  </li>
+  {% endfor %}
 </ul>
 {% endblock %}
