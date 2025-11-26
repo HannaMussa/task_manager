@@ -56,3 +56,15 @@ CSS was validated using [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validat
 </details>
 
 ## Unfixed Bugs
+
+
+### Authentication Tests
+
+| Test Name              | Steps                            | Expected Result            | Screenshot                                 |
+|------------------------|---------------------------------|----------------------------|-------------------------------------------|
+| Signup page loads      | Visit /signup/                   | Form displays              | ![Signup Page](tasks/static/documentation/--) |
+| Successful signup      | Enter valid username + password  | Redirect to task list      | ![Successful Signup](tasks/static/documentation/--) |
+| Login page loads       | Visit /login/                    | Form displays              | ![Login Page](tasks/static/documentation/--) |
+| Successful login       | Enter valid credentials          | Redirect to tasks          | ![Successful Login](tasks/static/documentation/--) |
+| Logout                 | Click "Logout"                   | Redirect to login          | ![Logout](tasks/static/documentation/--) |
+
