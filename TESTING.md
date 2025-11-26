@@ -17,6 +17,18 @@ CSS was validated using [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validat
 ## Browser Compatibility
 <details>
 <summary>Click here to view the Browser Compatibility </summary>
+
+The app has been tested across several popular browsers, including Google Chrome, Mozilla Firefox, Opera, and Brave. It was fully compatible with all browsers tested.
+
+| Browser  | Screenshot |
+|----------|------------|
+| Chrome   | ![screenshot](tasks/static/documentation/chrome.png) |
+| Firefox  | ![screenshot](tasks/static/documentation/firefox.png) |
+| Opera    | ![screenshot](tasks/static/documentation/opera.png) |
+| Brave    | ![screenshot](tasks/static/documentation/brave.png) |
+
+**Note:** The app was responsive on all browsers.
+
 </details>
 
 ## Responsiveness
