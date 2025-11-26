@@ -44,9 +44,32 @@ CSS was validated using [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validat
 <summary>Click here to view the testing for existing features</summary>
 </details>
 
-## CRUD Functionality 
 
-## Authentication Functionality
+### Authentication Functionality Tests
+<details>
+<summary>Click here to view the Authentication Functionality Tests</summary>
+
+| Test Name              | Steps                            | Expected Result            | Screenshot                                 |
+|------------------------|---------------------------------|----------------------------|-------------------------------------------|
+| Signup page loads      | Visit /signup/                   | Form displays              | ![Signup Page](tasks/static/documentation/--) |
+| Successful signup      | Enter valid username + password  | Redirect to task list      | ![Successful Signup](tasks/static/documentation/--) |
+| Login page loads       | Visit /login/                    | Form displays              | ![Login Page](tasks/static/documentation/--) |
+| Successful login       | Enter valid credentials          | Redirect to tasks          | ![Successful Login](tasks/static/documentation/--) |
+| Logout                 | Click "Logout"                   | Redirect to login          | ![Logout](tasks/static/documentation/--) |
+</details>
+
+### CRUD Functionality Tests
+<details>
+<summary>Click here to view the CRUD Functionality Tests</summary>
+
+| Feature           | Steps                     | Expected Outcome              | Screenshots |
+|-------------------|---------------------------|-------------------------------|-------------|
+| Create Task       | Fill form, then click Submit        | Task appears in list          | [//](tasks/static/documentation/create-task.png) |
+| Read Tasks        | Visit homepage            | Displays user's tasks only    | [//](tasks/static/documentation/read-tasks.png) |
+| Edit Task         | Click Edit, then click Save         | Updated task shown            | [//](tasks/static/documentation/edit-task.png) |
+| Delete Task       | Click Delete              | Task removed                  | [//](tasks/static/documentation/delete-task.png) |
+| Toggle Completed  | Click Toggle              | Completed state changes       | [//](tasks/static/documentation/toggle-completed.png) |
+</details>
 
 ## Automatic Testing
 
@@ -57,14 +80,4 @@ CSS was validated using [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validat
 
 ## Unfixed Bugs
 
-
-### Authentication Tests
-
-| Test Name              | Steps                            | Expected Result            | Screenshot                                 |
-|------------------------|---------------------------------|----------------------------|-------------------------------------------|
-| Signup page loads      | Visit /signup/                   | Form displays              | ![Signup Page](tasks/static/documentation/--) |
-| Successful signup      | Enter valid username + password  | Redirect to task list      | ![Successful Signup](tasks/static/documentation/--) |
-| Login page loads       | Visit /login/                    | Form displays              | ![Login Page](tasks/static/documentation/--) |
-| Successful login       | Enter valid credentials          | Redirect to tasks          | ![Successful Login](tasks/static/documentation/--) |
-| Logout                 | Click "Logout"                   | Redirect to login          | ![Logout](tasks/static/documentation/--) |
 
