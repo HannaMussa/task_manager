@@ -113,54 +113,45 @@
 ## Technologies Used
 
 <details>
-<summary>Click here to view the the Technologies Used </summary>
+<summary>Click here to view the Technologies Used</summary>
 
-This section highlights the tools, languages, and frameworks used in the development of the project:
+| **Technology**                                                | **Purpose**                                                                 |
+|----------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| [**HTML**](https://developer.mozilla.org/en-US/docs/Web/HTML)         | For structuring the content of the web pages.                              |
+| [**CSS**](https://developer.mozilla.org/en-US/docs/Web/CSS)           | For styling the appearance of the site.                                    |
+| [**JavaScript**](https://developer.mozilla.org/en-US/docs/Web/JavaScript) | For Bootstrap Navbar interactivity.                                        |
+| [**Bootstrap 4**](https://getbootstrap.com/docs/4.0/)                  | For responsive layout and the Navbar.                                      |
+| [**Python 3**](https://www.python.org/)                               | Programming language used to write the backend logic.                      |
+| [**pip**](https://pip.pypa.io/en/stable/)                             | Python package manager used to install dependencies.                        |
+| [**venv**](https://docs.python.org/3/library/venv.html)               | Python virtual environment used to isolate project dependencies.            |
+| [**Django 5**](https://www.djangoproject.com/)                        | Web framework used for server-side logic, user authentication, and CRUD operations. |
+| [**SQLite**](https://www.sqlite.org/)                                 | Database used to store tasks and user information.                          |
+| [**Visual Studio Code**](https://code.visualstudio.com/)             | Code editor used to build and manage the project.                           |
+| [**Git**](https://git-scm.com/)                                       | Version control tool used to track changes in the project.                  |
+| [**GitHub**](https://github.com/)                                     | Hosting platform used to store the project repository.                      |
+| [**Google Chrome DevTools**](https://developer.chrome.com/docs/devtools/) | Used for debugging, inspecting elements, and testing CSS.                   |
+| [**Heroku (or Render)**](https://www.heroku.com/)                     | Cloud platform used for deploying the application.                          |
+| [**Balsamiq**](https://balsamiq.com/)                                 | Tool used for wireframing and designing the user interface before development. |
+| [**Grammarly**](https://www.grammarly.com/)                           | Used for proofreading and ensuring grammatical correctness in the project documentation. |
+| [**Markdown Table Generator**](https://www.tablesgenerator.com/markdown_tables) | Tool for easily generating markdown tables in a visual format.             |
 
-- **HTML** – For structuring the content of the web pages.
-- **CSS** – For styling the appearance of the site.
-- **JavaScript** – For Bootstrap Navbar interactivity.
-- **Bootstrap 4** – For responsive layout and the Navbar.
-- **Python 3** – Programming language used to write the backend logic.
-- **pip** – Python package manager used to install dependencies.
-- **venv** – Python virtual environment used to isolate project dependencies.
-- **Django 5** – Web framework used for server-side logic, user authentication, and CRUD operations.
-- **SQLite** – Database used to store tasks and user information.
-- **Visual Studio Code** – Code editor used to build and manage the project.
-- **Git** – Version control tool used to track changes in the project.
-- **GitHub** – Hosting platform used to store the project repository.
-- **Google Chrome DevTools** – Used for debugging, inspecting elements, and testing CSS.
-
+All other code was written by Hanna Mussa.
 </details>
 
 ## Code Attribution
 
 <details>
-<summary>Click here to view the the Code Attribution </summary>
+<summary>Click here to view the Code Attribution</summary>
 
-Some parts of this project were inspired by or adapted from external sources:
-
-- **Django Official Documentation** – https://docs.djangoproject.com/en/5.2/  
-  Helped understand Django forms, models, and authentication system.
-
-- **YouTube: Django To-Do List Tutorial** – https://www.youtube.com/watch?v=6Jf8-PbHoLM  
-  Provided step-by-step guidance on setting up CRUD functionality with Django, demonstrating how to create and display tasks.
-
-- **MDN Django Tutorials** – https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django  
-  Explained Django concepts, useful for understanding form handling and template rendering.
-
-- **W3Schools Django Guide** – https://www.w3schools.com/django/  
-  Used as a quick reference for syntax and template examples.
-
-- **YouTube: Bootstrap Navbar Implementation** – https://www.youtube.com/watch?v=H_cWdD-aXCQ&t=295s  
-  Showed how to implement a responsive navbar, which was adapted for the project’s layout.
-
-- **YouTube: Django Authentication** – https://www.youtube.com/watch?v=kDAnnEhb4_I  
-  Explained login, logout, and signup flows, helping integrate user authentication.
-
-All other code was written by Hanna Mussa.
+| **Source**                                                | **Purpose**                                                                 |
+|----------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| [**Django Official Documentation**](https://docs.djangoproject.com/en/5.2/) | Helped understand Django forms, models, and authentication system.         |
+| [**YouTube: Django To-Do List Tutorial**](https://www.youtube.com/watch?v=6Jf8-PbHoLM) | Provided step-by-step guidance on setting up CRUD functionality with Django, demonstrating how to create and display tasks. |
+| [**MDN Django Tutorials**](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django) | Explained Django concepts, useful for understanding form handling and template rendering. |
+| [**W3Schools Django Guide**](https://www.w3schools.com/django/)       | Used as a quick reference for syntax and template examples.                 |
+| [**YouTube: Bootstrap Navbar Implementation**](https://www.youtube.com/watch?v=H_cWdD-aXCQ&t=295s) | Showed how to implement a responsive navbar, which was adapted for the project’s layout. |
+| [**YouTube: Django Authentication**](https://www.youtube.com/watch?v=kDAnnEhb4_I) | Explained login, logout, and signup flows, helping integrate user authentication. |
 </details>
-
 
 ## Database and Relationship
 <details>
@@ -258,6 +249,4 @@ I am grateful to my tutor, Robert Thompson, and my mentor, Richard Wells, for th
 - Wireframes
 - Testing.md
 - Development Cycle (not mandatory)
-
-
-+ tools= heruku or render, balsamiq, grammarly 
+- add comments into work
