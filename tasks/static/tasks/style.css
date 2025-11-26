@@ -17,8 +17,8 @@ body {
 
 /* Navbar styling */
 
-.navbar {
-  background-color: #f1c46a;
+.custom-navbar {
+  background-color: #f1c46a !important;
   color: black;
   padding: 15px 20px;
   border-radius: 6px;
