@@ -159,10 +159,49 @@ Some parts of this project were inspired by or adapted from external sources:
   Explained login, logout, and signup flows, helping integrate user authentication.
 
 All other code was written by Hanna Mussa.
-
 </details>
 
-## Database
+
+## Database and Relationship
+<details>
+<summary>Click here to view the the Database and Relationship
+ </summary>
+
+- This project uses a relational database to store task data for each user. The database is managed by Django's ORM (Object-Relational Mapping), which allows us to interact with the database using Python objects rather than writing raw SQL queries. This approach facilitates the process and makes it easier with the built-in shortcuts provided by Django.
+
+- The relational database enables information and tables to be linked together. For example, many tasks can belong to one user.
+
+- There are two main models in the database: `User` and `Task`.
+
+- The `User` model is an inbuilt model in Django that handles authentication and user accounts. Each user has a unique username and password, and the `User` model is used for authentication in the application.
+
+- The `Task` model represents a task created by the user. Each task has the following fields: `user`, `title`, `description`, `due_date`, and `completed`. Multiple fields are used to link information between the two models and establish a relationship between them.
+
+  The `ForeignKey` field is used to indicate that each user has their own specific tasks. This enables users to have individual to-do lists, rather than sharing a single public to-do list.
+
+  - The `title` is a `CharField` used to name or describe the task.
+  
+  - The `description` is an optional field that allows the user to add more information about their task. It is intended for longer text.
+  
+  - The `due_date` field represents and stores the date and time by which the task should be completed. This field is also optional.
+  
+  - The `completed` field is a `BooleanField` that is displayed as a checkbox. When ticked, it indicates the task has been completed (`True`), and when unticked, it indicates the task is incomplete (`False`). This field is also optional.
+
+### Setting Up the Database
+
+- Django uses migrations to create and manage tables in the database. To apply migrations, run the following commands in the terminal:
+
+1. `python manage.py makemigrations`  
+   This generates migration files based on changes to your models.
+
+2. `python manage.py migrate`  
+   This applies the migrations and creates the necessary tables in the database.
+
+### Testing the Migrations
+
+- To test if the migrations have been applied correctly, log in to Django's admin panel and check if your models have been successfully created as tables.
+</details>
+
 
 ## Testing
 
@@ -217,31 +256,8 @@ I am grateful to my tutor, Robert Thompson, and my mentor, Richard Wells, for th
 
 - CSS
 - Wireframes
-- Database (Task model description,  Relationships)
-- Testing
+- Testing.md
 - Development Cycle (not mandatory)
 
 
 + tools= heruku or render, balsamiq, grammarly 
-
-## Database
-
-This project uses a relational database to store task data for each user. The database is managed by Django's ORM (Object-Relational Mapping), which allows us to interact with the database using Python objects rather than writing raw SQL queries, which facilitated the process, making it easier with the inbuilt shortcuts. 
-
-The relational Database enables information and tables to be linked together E.g. many taks belonign to one user. 
-
-There are two main models in the database, the `User` and `task`. 
-
-- The user is an inbuilt model in Django that is used to handle authentication and user accounts. Each user has  unique username, password, the `user` moded is used for authentication in the application.
-
-- The `Task` model reps a task created by the user, each task has the following fields: user, title, decription, due date and completed. To create a task, multiple fields are used to link information between two models to create a relationship. 
-
-the `foreignkey` is used to indicate that the user has its own specific takss, this enables the users to have their own to do list rather than having a shared to do list with the public. 
-
-the `title` charfield is used to name or describe the task. 
-
-the `description` is an optional field allowing the user to add more iinfomration to their task, and is used for longer tects. 
-
-teh `due_date` field is used to represent and store the date and time the task should be compleyted by- this is also optional.
-
-the `completed` is a boolendfield that is displayed as s checkbox allowing the used to click the box indicating the task has been completed (true) and if incomplete it would be unticked and (false). this is also optional.
