@@ -215,8 +215,33 @@ I am grateful to my tutor, Robert Thompson, and my mentor, Richard Wells, for th
 
 ### pending: 
 
+- CSS
 - Wireframes
 - Database (Task model description,  Relationships)
 - Testing
 - Development Cycle (not mandatory)
 
+
++ tools= heruku or render, balsamiq, grammarly 
+
+## Database
+
+This project uses a relational database to store task data for each user. The database is managed by Django's ORM (Object-Relational Mapping), which allows us to interact with the database using Python objects rather than writing raw SQL queries, which facilitated the process, making it easier with the inbuilt shortcuts. 
+
+The relational Database enables information and tables to be linked together E.g. many taks belonign to one user. 
+
+There are two main models in the database, the `User` and `task`. 
+
+- The user is an inbuilt model in Django that is used to handle authentication and user accounts. Each user has  unique username, password, the `user` moded is used for authentication in the application.
+
+- The `Task` model reps a task created by the user, each task has the following fields: user, title, decription, due date and completed. To create a task, multiple fields are used to link information between two models to create a relationship. 
+
+the `foreignkey` is used to indicate that the user has its own specific takss, this enables the users to have their own to do list rather than having a shared to do list with the public. 
+
+the `title` charfield is used to name or describe the task. 
+
+the `description` is an optional field allowing the user to add more iinfomration to their task, and is used for longer tects. 
+
+teh `due_date` field is used to represent and store the date and time the task should be compleyted by- this is also optional.
+
+the `completed` is a boolendfield that is displayed as s checkbox allowing the used to click the box indicating the task has been completed (true) and if incomplete it would be unticked and (false). this is also optional.
