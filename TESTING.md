@@ -141,12 +141,15 @@ Chrome Lighthouse evaluates web pages for performance, accessibility and SEO- th
 
 ## pending:
 
-- HTML Validation
-- CSS Validation
+- pending: 1.SECURITY FIXES in settings.py & env
+- deploy to render (requirements.txt)
+- HTML + CSS validation
+- Bugs testting
+- add comments into work
+
 - bugs:<br>
   css doesn't load, order of css
   logout page doesn't work
   navbar doesn't work- try adding collapse, update to latest query
 
-- add comments into work
-  -deployment
+

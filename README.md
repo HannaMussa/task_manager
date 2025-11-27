@@ -6,6 +6,8 @@
 
 ## UX
 
+- This project was designed with a clear focus on simplicity, usability and accessibility so that users can interact with the task manager quickly and without confusion. all forms use clear labels and straightforward layouts, making them easy to understand. The interface is clean n minimal, with good colour contrast and readable text sizes. bootstrap ensures the layout is fully responsive allowing the app to work smothly across desktops, tablets, and mobile devices. navigation is consistent across all pages, with clearly named buttons and links that make it easy for users to move between creating, editing, viewing and deleting tasks. Additionally, form submissions and task actions provide clear visual feedbak, helping users understand the result of there interactions. 
+
 ### Target Audience
 
 - The Task Manager App is intended for anyone who wants to manage personal tasks and stay organized.Anyone who is overstressed, has mind clutter or has many tasks can use this app to become more organsied, clear mind clutter and manage tasks efficiently.
@@ -34,8 +36,6 @@
 - As a user, I want to ensure my tasks are stored securely so that my data is safe from unauthorized access.
 
 </details>
-
-## Development Cycle
 
 ## Wireframes
 
