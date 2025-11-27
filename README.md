@@ -266,3 +266,10 @@ The forked repository will now appear in your GitHub account.
 
 I am grateful to my tutor, Robert Thompson, and my mentor, Richard Wells, for their continued support and guidance during this project.
 
+https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/#secret-key
+
+https://docs.djangoproject.com/en/5.0/ref/settings/#allowed-hosts
+
+https://docs.djangoproject.com/en/5.0/howto/static-files/deployment/
+
+helped set up secret key settings.py
