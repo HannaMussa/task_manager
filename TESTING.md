@@ -130,7 +130,6 @@ Chrome Lighthouse evaluates web pages for performance, accessibility and SEO- th
 
 </details>
 
-
 ## Bugs
 
 <details>
@@ -141,8 +140,6 @@ Chrome Lighthouse evaluates web pages for performance, accessibility and SEO- th
 
 ## pending:
 
-- pending: 1.SECURITY FIXES in settings.py & env
-- deploy to render (requirements.txt)
 - HTML + CSS validation
 - Bugs testting
 - add comments into work
