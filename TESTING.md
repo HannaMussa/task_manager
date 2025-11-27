@@ -7,6 +7,8 @@
 <details>
 <summary> Click here to view HTML Validation </summary>
 HTML was validated using [The W3C Markup Validation Service](https://validator.w3.org/).
+ ![screenshot](tasks/static/documentation/chrome.png)
+
 </details>
 
 ### CSS Validation
