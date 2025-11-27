@@ -244,6 +244,13 @@ venv\Scripts\activate` (Windows)
 
 </details>
 
+## Deployment
+
+## Deployment
+
+The Task Manager app is deployed on [Render](https://render.com). The repo is connected to Render, which automatically installs all the stuff from `requirements.txt` and starts the app using the default Python web service settings. I set the environment variables, like `SECRET_KEY` and `DEBUG`, in Render to keep it secure. You can check out the live site here: [Live App Link](https://task-manager-vhj1.onrender.com). It should work fine, though sometimes it takes a bit to load.
+
+
 ## Forking
 
 <details>
