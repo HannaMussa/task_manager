@@ -61,12 +61,6 @@ Chrome Lighthouse evaluates web pages for performance, accessibility and SEO- th
 
 </details>
 
-## WAVE Web Accessibility Evaluation Tool
-
-<details>
-<summary>Click here to view the WAVE Feedback </summary>
- </details>
-
 ## User Story Testing
 
 <details>
@@ -87,25 +81,41 @@ Chrome Lighthouse evaluates web pages for performance, accessibility and SEO- th
 ## Testing Existing Features
 
 <details>
-<summary>Click here to view the testing for existing features</summary>
+<summary>Click here to view the Tests for Existing Features</summary>
+
+| **Feature**                | **Test Description**                                                          | **Expected Result**                                                   | **Screenshot**                                 |
+| -------------------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------- | ---------------------------------------------- |
+| **User Signup**            | Test if a new user can sign up successfully.                                  | New user is can access task page.                                     | ![](tasks/static/documentation/signup.png)     |
+| **User Login**             | Test if the user can log in with correct credentials.                         | User is logged in and redirected to their task list.                  | ![](tasks/static/documentation/login.png)      |
+| **User Logout**            | Test if the user can log out.                                                 | User is logged out and redirected to the login page.                  | ![](tasks/static/documentation/logout.png)     |
+| **Create Tasks**           | Test if a user can create a new task.                                         | Task appears in the task list.                                        | ![](tasks/static/documentation/list.png)       |
+| **Due Date Feature**       | Test if a user can assign a due date to a task.                               | Task displays the correct due date.                                   | ![](tasks/static/documentation/date.png)       |
+| **View Tasks**             | Test if all tasks are displayed for the logged-in user.                       | All tasks created by the logged-in user are shown on the main page.   | ![](tasks/static/documentation/list1.png)      |
+| **Edit Tasks**             | Test if a user can edit task details.                                         | User is able to edit task details.                                    | ![](tasks/static/documentation/edit.png)       |
+| **Delete Tasks**           | Test if a user can delete a task.                                             | Task is removed from the task list permanently.                       | ![](tasks/static/documentation/delete.png)     |
+| **Toggle Task Completion** | Test if a user can mark a task as completed.                                  | Task is marked as completed (checkbox is checked).                    | ![](tasks/static/documentation/completed.png)  |
+| **Responsive Layout**      | Test if the layout works on different screen sizes (mobile, tablet, desktop). | Navbar collapses on smaller screens, task list is properly displayed. | ![](tasks/static/documentation/responsive.png) |
+| **Navigation Bar**         | Test if the navbar links (My Tasks, Login, Logout) work as expected.          | Links lead to the correct pages (task list, login, logout).           | All links lead to the correct pages.           |
+
 </details>
 
-### Authentication Functionality Tests
+
+## Authentication Functionality Tests
 
 <details>
 <summary>Click here to view the Authentication Functionality Tests</summary>
 
 | Test Name         | Steps                           | Expected Result       | Screenshot                                          |
 | ----------------- | ------------------------------- | --------------------- | --------------------------------------------------- |
-| Signup page loads | Visit /signup/                  | Form displays         | ![Signup Page](tasks/static/documentation/--)       |
-| Successful signup | Enter valid username + password | Redirect to task list | ![Successful Signup](tasks/static/documentation/--) |
-| Login page loads  | Visit /login/                   | Form displays         | ![Login Page](tasks/static/documentation/--)        |
-| Successful login  | Enter valid credentials         | Redirect to tasks     | ![Successful Login](tasks/static/documentation/--)  |
-| Logout            | Click "Logout"                  | Redirect to login     | ![Logout](tasks/static/documentation/--)            |
+| Signup page loads | Signup/                  | Form displays         | ![Signup Page](tasks/static/documentation/signup.png)       |
+| Successful signup | Enter valid username + password | Redirect to task list | ![Successful Signup](tasks/static/documentation/login.png) |
+| Login page loads  | Visit /login/                   | Form displays         | ![Login Page](tasks/static/documentation/logout.png)        |
+| Successful login  | Enter valid credentials         | Redirect to tasks     | ![Successful Login](tasks/static/documentation/login.png)  |
+| Logout            | Click "Logout"                  | Redirect to login     | ![Logout](tasks/static/documentation/logout.png)            |
 
 </details>
 
-### CRUD Functionality Tests
+## CRUD Functionality Tests
 
 <details>
 <summary>Click here to view the CRUD Functionality Tests</summary>
@@ -120,7 +130,6 @@ Chrome Lighthouse evaluates web pages for performance, accessibility and SEO- th
 
 </details>
 
-## Automatic Testing
 
 ## Bugs
 
@@ -134,13 +143,11 @@ Chrome Lighthouse evaluates web pages for performance, accessibility and SEO- th
 
 - HTML Validation
 - CSS Validation
-- WAVE
-- Testing Existing Features
 - Authentication & CRUD testing (Add pics)
-- bugs
+- bugs:<br>
+  css doesn't load, order of css
+  logout page doesn't work
+  navbar doesn't work- try adding collapse, update to latest query
 
-bugs:
-css doesn't load, order of css
-logout page doesn't work
-navbar doesn't work- try adding collapse, update to latest query
-
+- add comments into work
+  -deployment
