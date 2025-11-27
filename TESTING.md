@@ -42,8 +42,6 @@ CSS was validated using [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validat
 | Tablet  | ![screenshot](tasks/static/documentation/tablet.png) |
 | Laptop    | ![screenshot](tasks/static/documentation/laptop.png) |
 
-
-
 </details>
 
 ## Lighthouse Audit
@@ -56,10 +54,23 @@ CSS was validated using [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validat
 <summary>Click here to view the WAVE Feedback </summary>
  </details>
 
+
 ## User Story Testing
 <details>
 <summary>Click here to view the User Story Testing</summary>
+
+| User Story                             | Expected Result                                                       | Screenshot                                              |
+| -------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------- |
+| First-time user can create, view, and manage tasks | Task is created, visible in the list, and editable                    | ![Task Management](tasks/static/documentation/list.png) |
+| Assign due dates to tasks                          | Task displays correct due date                                        | ![Due Date](tasks/static/documentation/date.png)        |
+| Secure logout of account                           | User is redirected to login page, session ends                        | ![Logout](tasks/static/documentation/logout.png)        |
+| Mobile responsiveness                              | Navbar collapses correctly; tasks visible and usable on small screens | ![Mobile](tasks/static/documentation/responsive.png)    |
+| Delete tasks no longer needed                      | Task is removed from the task list                                    | ![Delete Task](tasks/static/documentation/delete.png)       |
+| Mark tasks as complete                             | Task status changes to "Completed"                                    | ![Complete Task](tasks/static/documentation/completed.png)  |
+| Data security of tasks                             | Tasks cannot be accessed without login                                | ![Data Security](tasks/static/documentation/logout.png)      |
+
 </details>
+
 
 ## Testing Existing Features
 <details>
@@ -109,7 +120,8 @@ HTML Validation
 CSS Validation
 Lighthouse Audit
 WAVE 
-User Story Testing
 Testing Existing Features
 Authentication & CRUD testing (Add pics)
 bugs
+
+
