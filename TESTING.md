@@ -18,7 +18,7 @@ CSS was validated using [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validat
 <details>
 <summary>Click here to view the Browser Compatibility </summary>
 
-The app has been tested across several popular browsers, including Google Chrome, Mozilla Firefox, Opera, and Brave. It was fully compatible with all browsers tested.
+<br> The app has been tested across several popular browsers, including Google Chrome, Mozilla Firefox, Opera, and Brave. It was fully compatible with all browsers tested.
 
 | Browser  | Screenshot |
 |----------|------------|
@@ -27,13 +27,23 @@ The app has been tested across several popular browsers, including Google Chrome
 | Opera    | ![screenshot](tasks/static/documentation/opera.png) |
 | Brave    | ![screenshot](tasks/static/documentation/brave.png) |
 
-**Note:** The app was responsive on all browsers.
-
 </details>
 
 ## Responsiveness
 <details>
 <summary>Click here to view the responsiveness</summary>
+
+<br>  The app has been tested on the following devices and was responsive across the devices tested.
+
+
+| Browser  | Screenshot |
+|----------|------------|
+| Mobile   | ![screenshot](tasks/static/documentation/mobile.png) |
+| Tablet  | ![screenshot](tasks/static/documentation/tablet.png) |
+| Laptop    | ![screenshot](tasks/static/documentation/laptop.png) |
+
+
+
 </details>
 
 ## Lighthouse Audit
@@ -93,3 +103,13 @@ The app has been tested across several popular browsers, including Google Chrome
 ## Unfixed Bugs
 
 
+## pending:
+
+HTML Validation
+CSS Validation
+Lighthouse Audit
+WAVE 
+User Story Testing
+Testing Existing Features
+Authentication & CRUD testing (Add pics)
+bugs
