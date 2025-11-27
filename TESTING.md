@@ -122,11 +122,11 @@ Chrome Lighthouse evaluates web pages for performance, accessibility and SEO- th
 
 | Feature          | Steps                        | Expected Outcome           | Screenshots                                           |
 | ---------------- | ---------------------------- | -------------------------- | ----------------------------------------------------- |
-| Create Task      | Fill form, then click Submit | Task appears in list       | [//](tasks/static/documentation/create-task.png)      |
-| Read Tasks       | Visit homepage               | Displays user's tasks only | [//](tasks/static/documentation/read-tasks.png)       |
-| Edit Task        | Click Edit, then click Save  | Updated task shown         | [//](tasks/static/documentation/edit-task.png)        |
-| Delete Task      | Click Delete                 | Task removed               | [//](tasks/static/documentation/delete-task.png)      |
-| Toggle Completed | Click Toggle                 | Completed state changes    | [//](tasks/static/documentation/toggle-completed.png) |
+| Create Task      | Fill form, then click Submit | Task appears in list       | ![Signup Page](tasks/static/documentation/list.png)      |
+| Read Tasks       | Visit homepage               | Displays user's tasks only | ![Signup Page](tasks/static/documentation/list1.png)       |
+| Edit Task        | Click Edit, then click Save  | Updated task shown         | ![Signup Page](tasks/static/documentation/edit.png)        |
+| Delete Task      | Click Delete                 | Task removed               | ![Signup Page](tasks/static/documentation/delete.png)      |
+| Toggle Completed | Click Toggle                 | Completed state changes    | ![Signup Page](tasks/static/documentation/completed.png) |
 
 </details>
 
@@ -143,7 +143,6 @@ Chrome Lighthouse evaluates web pages for performance, accessibility and SEO- th
 
 - HTML Validation
 - CSS Validation
-- Authentication & CRUD testing (Add pics)
 - bugs:<br>
   css doesn't load, order of css
   logout page doesn't work

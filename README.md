@@ -266,10 +266,3 @@ The forked repository will now appear in your GitHub account.
 
 I am grateful to my tutor, Robert Thompson, and my mentor, Richard Wells, for their continued support and guidance during this project.
 
-### pending:
-
-- CSS
-- Testing.md
-- add comments into work
-- Development Cycle (not mandatory)
-- add toggle menu

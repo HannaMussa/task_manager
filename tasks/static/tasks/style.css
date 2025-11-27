@@ -58,7 +58,7 @@ form label {
 h1 {
   font-weight: 500;
   margin-bottom: 20px;
-  color: #333;
+  color:black
 }
 /* Labels */
 label,
@@ -79,6 +79,7 @@ button,
   transition: 0.3s;
   margin: 5px;
   text-decoration: none;
+  font-weight: 600;
 }
 
 button:hover,
