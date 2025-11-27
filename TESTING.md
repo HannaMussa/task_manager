@@ -1,21 +1,28 @@
-## Automated vs Manual Testing
-
 ## Code Validation
 
 ### HTML Validation
 
 <details>
-<summary> Click here to view HTML Validation </summary>
-HTML was validated using [The W3C Markup Validation Service](https://validator.w3.org/).
- ![screenshot](tasks/static/documentation/chrome.png)
+<summary> Click here to view HTML Validation </summary><br>
+
+HTML was validated using [The W3C Markup Validation Service](https://validator.w3.org/).<br>
+
+![HTML validator](tasks/static/documentation/html.png)
 
 </details>
 
 ### CSS Validation
 
 <details>
-<summary> Click here to view the CSS Validation </summary>
+<summary> Click here to view the CSS Validation </summary> <br>
+
 CSS was validated using [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/).
+<br>
+
+HTML was validated using [The W3C Markup Validation Service](https://validator.w3.org/).<br>
+
+![HTML validator](tasks/static/documentation/css.png)
+
  </details>
 
 ## Browser Compatibility
@@ -101,19 +108,18 @@ Chrome Lighthouse evaluates web pages for performance, accessibility and SEO- th
 
 </details>
 
-
 ## Authentication Functionality Tests
 
 <details>
 <summary>Click here to view the Authentication Functionality Tests</summary>
 
-| Test Name         | Steps                           | Expected Result       | Screenshot                                          |
-| ----------------- | ------------------------------- | --------------------- | --------------------------------------------------- |
-| Signup page loads | Signup/                  | Form displays         | ![Signup Page](tasks/static/documentation/signup.png)       |
+| Test Name         | Steps                           | Expected Result       | Screenshot                                                 |
+| ----------------- | ------------------------------- | --------------------- | ---------------------------------------------------------- |
+| Signup page loads | Signup/                         | Form displays         | ![Signup Page](tasks/static/documentation/signup.png)      |
 | Successful signup | Enter valid username + password | Redirect to task list | ![Successful Signup](tasks/static/documentation/login.png) |
-| Login page loads  | Visit /login/                   | Form displays         | ![Login Page](tasks/static/documentation/logout.png)        |
+| Login page loads  | Visit /login/                   | Form displays         | ![Login Page](tasks/static/documentation/logout.png)       |
 | Successful login  | Enter valid credentials         | Redirect to tasks     | ![Successful Login](tasks/static/documentation/login.png)  |
-| Logout            | Click "Logout"                  | Redirect to login     | ![Logout](tasks/static/documentation/logout.png)            |
+| Logout            | Click "Logout"                  | Redirect to login     | ![Logout](tasks/static/documentation/logout.png)           |
 
 </details>
 
@@ -122,12 +128,12 @@ Chrome Lighthouse evaluates web pages for performance, accessibility and SEO- th
 <details>
 <summary>Click here to view the CRUD Functionality Tests</summary>
 
-| Feature          | Steps                        | Expected Outcome           | Screenshots                                           |
-| ---------------- | ---------------------------- | -------------------------- | ----------------------------------------------------- |
+| Feature          | Steps                        | Expected Outcome           | Screenshots                                              |
+| ---------------- | ---------------------------- | -------------------------- | -------------------------------------------------------- |
 | Create Task      | Fill form, then click Submit | Task appears in list       | ![Signup Page](tasks/static/documentation/list.png)      |
-| Read Tasks       | Visit homepage               | Displays user's tasks only | ![Signup Page](tasks/static/documentation/list1.png)       |
-| Edit Task        | Click Edit, then click Save  | Updated task shown         | ![Signup Page](tasks/static/documentation/edit.png)        |
-| Delete Task      | Click Delete                 | Task removed               | ![Signup Page](tasks/static/documentation/delete.png)      |
+| Read Tasks       | Visit homepage               | Displays user's tasks only | ![Signup Page](tasks/static/documentation/list1.png)     |
+| Edit Task        | Click Edit, then click Save  | Updated task shown         | ![Signup Page](tasks/static/documentation/edit.png)      |
+| Delete Task      | Click Delete                 | Task removed               | ![Signup Page](tasks/static/documentation/delete.png)    |
 | Toggle Completed | Click Toggle                 | Completed state changes    | ![Signup Page](tasks/static/documentation/completed.png) |
 
 </details>
@@ -141,14 +147,4 @@ Chrome Lighthouse evaluates web pages for performance, accessibility and SEO- th
 ## Unfixed Bugs
 
 ## pending:
-
-- HTML + CSS validation
-- Bugs testting
 - add comments into work
-
-- bugs:<br>
-  css doesn't load, order of css
-  logout page doesn't work
-  navbar doesn't work- try adding collapse, update to latest query
-
-
