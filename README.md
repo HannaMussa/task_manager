@@ -6,7 +6,9 @@
 
 ## UX
 
-- This project was designed with a clear focus on simplicity, usability and accessibility so that users can interact with the task manager quickly and without confusion. all forms use clear labels and straightforward layouts, making them easy to understand. The interface is clean n minimal, with good colour contrast and readable text sizes. bootstrap ensures the layout is fully responsive allowing the app to work smothly across desktops, tablets, and mobile devices. navigation is consistent across all pages, with clearly named buttons and links that make it easy for users to move between creating, editing, viewing and deleting tasks. Additionally, form submissions and task actions provide clear visual feedbak, helping users understand the result of there interactions. 
+- This project was designed with a clear focus on simplicity, usability and accessibility so that users can interact with the task manager quickly and without confusion. all forms use clear labels and straightforward layouts, making them easy to understand. The interface is clean n minimal, with good colour contrast and readable text sizes. bootstrap ensures the layout is fully responsive allowing the app to work smothly across desktops, tablets, and mobile devices. navigation is consistent across all pages, with clearly named buttons and links that make it easy for users to move between creating, editing, viewing and deleting tasks. Additionally, form submissions and task actions provide clear visual feedbak, helping users understand the result of there interactions.
+
+You can check out the live site here: [Task Manager live Link](https://task-manager-vhj1.onrender.com).
 
 ### Target Audience
 
@@ -137,25 +139,29 @@
 <details>
 <summary>Click here to view the Technologies Used</summary>
 
-| **Technology**                                                                  | **Purpose**                                                                              |
-| ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| [**HTML**](https://developer.mozilla.org/en-US/docs/Web/HTML)                   | For structuring the content of the web pages.                                            |
-| [**CSS**](https://developer.mozilla.org/en-US/docs/Web/CSS)                     | For styling the appearance of the site.                                                  |
-| [**JavaScript**](https://developer.mozilla.org/en-US/docs/Web/JavaScript)       | For Bootstrap Navbar interactivity.                                                      |
-| [**Bootstrap 4**](https://getbootstrap.com/docs/4.0/)                           | For responsive layout and the Navbar.                                                    |
-| [**Python 3**](https://www.python.org/)                                         | Programming language used to write the backend logic.                                    |
-| [**pip**](https://pip.pypa.io/en/stable/)                                       | Python package manager used to install dependencies.                                     |
-| [**venv**](https://docs.python.org/3/library/venv.html)                         | Python virtual environment used to isolate project dependencies.                         |
-| [**Django 5**](https://www.djangoproject.com/)                                  | Web framework used for server-side logic, user authentication, and CRUD operations.      |
-| [**SQLite**](https://www.sqlite.org/)                                           | Database used to store tasks and user information.                                       |
-| [**Visual Studio Code**](https://code.visualstudio.com/)                        | Code editor used to build and manage the project.                                        |
-| [**Git**](https://git-scm.com/)                                                 | Version control tool used to track changes in the project.                               |
-| [**GitHub**](https://github.com/)                                               | Hosting platform used to store the project repository.                                   |
-| [**Google Chrome DevTools**](https://developer.chrome.com/docs/devtools/)       | Used for debugging, inspecting elements, and testing CSS.                                |
-| [**Heroku (or Render)**](https://www.heroku.com/)                               | Cloud platform used for deploying the application.                                       |
-| [**Frame0**](https://frame0.app/)                                               | Tool used for wireframing and designing the user interface before development.           |
-| [**Grammarly**](https://www.grammarly.com/)                                     | Used for proofreading and ensuring grammatical correctness in the project documentation. |
-| [**Markdown Table Generator**](https://www.tablesgenerator.com/markdown_tables) | Tool for easily generating markdown tables in a visual format.                           |
+| **Technology**                                                                  | **Purpose**                                                                                             |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| [**HTML**](https://developer.mozilla.org/en-US/docs/Web/HTML)                   | For structuring the content of the web pages.                                                           |
+| [**CSS**](https://developer.mozilla.org/en-US/docs/Web/CSS)                     | For styling the appearance of the site.                                                                 |
+| [**JavaScript**](https://developer.mozilla.org/en-US/docs/Web/JavaScript)       | For Bootstrap Navbar interactivity.                                                                     |
+| [**Bootstrap 4**](https://getbootstrap.com/docs/4.0/)                           | For responsive layout and the Navbar.                                                                   |
+| [**Python 3**](https://www.python.org/)                                         | Programming language used to write the backend logic.                                                   |
+| [**pip**](https://pip.pypa.io/en/stable/)                                       | Python package manager used to install dependencies.                                                    |
+| [**venv**](https://docs.python.org/3/library/venv.html)                         | Python virtual environment used to isolate project dependencies.                                        |
+| [**Django 5**](https://www.djangoproject.com/)                                  | Web framework used for server-side logic, user authentication, and CRUD operations.                     |
+| [**SQLite**](https://www.sqlite.org/)                                           | Database used to store tasks and user information.                                                      |
+| [**Visual Studio Code**](https://code.visualstudio.com/)                        | Code editor used to build and manage the project.                                                       |
+| [**Git**](https://git-scm.com/)                                                 | Version control tool used to track changes in the project.                                              |
+| [**GitHub**](https://github.com/)                                               | Hosting platform used to store the project repository.                                                  |
+| [**Google Chrome DevTools**](https://developer.chrome.com/docs/devtools/)       | Used for debugging, inspecting elements, and testing CSS.                                               |
+| [**Render**](https://render.com/)                                               | Cloud platform used for deploying the application.                                                      |
+| [**Gunicorn**](https://gunicorn.org/)                                           | A Python server that runs the Django app in production, making sure web requests are handled smoothlys. |
+| [**Frame0**](https://frame0.app/)                                               | Tool used for wireframing and designing the user interface before development.                          |
+| [**Grammarly**](https://www.grammarly.com/)                                     | Used for proofreading and ensuring grammatical correctness in the project documentation.                |
+| [**Markdown Table Generator**](https://www.tablesgenerator.com/markdown_tables) | Tool for easily generating markdown tables in a visual format.                                          |
+| [**Django Deployment Checklist — Secret Key**](https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/#secret-key) | Guided setting up the secret key securely using environment variables in production.                              |
+| [**Django Settings — Allowed Hosts**](https://docs.djangoproject.com/en/5.0/ref/settings/#allowed-hosts) | Used to configure `ALLOWED_HOSTS` so the app only responds to trusted domains in production.                     |
+| [**Django Static Files Deployment**](https://docs.djangoproject.com/en/5.0/howto/static-files/deployment/) | Helped configure `STATIC_ROOT` and manage static files (CSS, JS, images) for production.                          |
 
 All other code was written by Hanna Mussa.
 
@@ -246,10 +252,12 @@ venv\Scripts\activate` (Windows)
 
 ## Deployment
 
-## Deployment
+<details>
+<summary>Click here to view the Deployment </summary>
 
-The Task Manager app is deployed on [Render](https://render.com). The repo is connected to Render, which automatically installs all the stuff from `requirements.txt` and starts the app using the default Python web service settings. I set the environment variables, like `SECRET_KEY` and `DEBUG`, in Render to keep it secure. You can check out the live site here: [Live App Link](https://task-manager-vhj1.onrender.com). It should work fine, though sometimes it takes a bit to load.
+The Task Manager app is deployed on [Render](https://render.com). The repository is connected to Render, which automatically installs all the stuff from `requirements.txt` and starts the app using the default Python web service settings. I set the environment variables, like `SECRET_KEY` and `DEBUG`, in Render to keep it secure. You can check out the live site here: [Live App Link](https://task-manager-vhj1.onrender.com).
 
+</details>
 
 ## Forking
 
@@ -276,7 +284,6 @@ I am grateful to my tutor, Robert Thompson, and my mentor, Richard Wells, for th
 https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/#secret-key
 
 https://docs.djangoproject.com/en/5.0/ref/settings/#allowed-hosts
+helped set up secret key settings.py
 
 https://docs.djangoproject.com/en/5.0/howto/static-files/deployment/
-
-helped set up secret key settings.py
