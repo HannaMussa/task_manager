@@ -145,6 +145,30 @@ Chrome Lighthouse evaluates web pages for performance, accessibility and SEO- th
 </details>
 
 ## Unfixed Bugs
+-  There are no unfixed bugs accoridng to my understanding.
 
 ## pending:
 - add comments into work
+- Bugs testting
+
+- bugs:
+  css doesn't load, order of css:css doesn't load, order of css was issue, i put bootstarp link below css so that was overriding, i had to put css below bootstrap to allow it to load
+
+
+  logout page doesn't work: 
+  the redirect urls werent configuered right after login it wasnt taking me to the tasks page, so i chnaged  login_redirect_url and logout_redirect_url in settings.py and that sorted it
+
+  navbar doesn't work- try adding collapse, update to latest query
+navbar doesn't work- try adding collapse, update to latest query, i used the wrong link of jqery i used the slim version so wasnt allowing me to use the features of collapse bar, i used the updated link without slim and the burger menu worked
+
+css not wokring after deployemnt:
+after deploying, none of my css was loading cos static files werent being served correctly  i had to installed whitenoise anad add to middleware, and ran python manage.py collectstatic again to fix it
+
+i tried deploying to render, it wasnt working cos i never had Gunicorn, so i had to download that to allow it to work
+
+page not loading cos  i forgot to add {% load static %} at the top of the template so i add {% load static %} to the template and the page loaded 
+
+static folder wrong location i accidentally put the css in the wrong folder static/css/ instead of static/css/ si moved the files into the correct static/css/ and wokried
+
+bootstrap was overriding my custom css and vise versa so i had to use dev tools make chnages from there removed the conflicting css rule and add new css, to see the issue and then updated into my actual css file
+
